@@ -1,0 +1,28 @@
+{
+    "testsuite": {
+        "conditions": [
+            {
+                "id": "P0",
+                "variable": "the notification settings",
+                "condition": "are configured accordingly"
+            }
+        ],
+        "expected": [
+            {
+                "id": "P1",
+                "variable": "the app",
+                "condition": "sends a notification to the user"
+            }
+        ],
+        "cases": [
+            {
+                "P0": true,
+                "P1": true
+            },
+            {
+                "P0": false,
+                "P1": false
+            }
+        ]
+    }
+}

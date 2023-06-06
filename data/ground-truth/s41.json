@@ -1,0 +1,28 @@
+{
+    "testsuite": {
+        "conditions": [
+            {
+                "id": "P0",
+                "variable": "a test",
+                "condition": "is positive"
+            }
+        ],
+        "expected": [
+            {
+                "id": "P1",
+                "variable": "the test",
+                "condition": "can trigger a warning"
+            }
+        ],
+        "cases": [
+            {
+                "P0": true,
+                "P1": true
+            },
+            {
+                "P0": false,
+                "P1": false
+            }
+        ]
+    }
+}

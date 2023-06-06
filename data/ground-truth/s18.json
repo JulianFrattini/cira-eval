@@ -1,0 +1,28 @@
+{
+    "testsuite": {
+        "conditions": [
+            {
+                "id": "P0",
+                "variable": "the options",
+                "condition": "available in the respective operating system"
+            }
+        ],
+        "expected": [
+            {
+                "id": "P1",
+                "variable": "Accessibility",
+                "condition": "is provided depending"
+            }
+        ],
+        "cases": [
+            {
+                "P0": true,
+                "P1": true
+            },
+            {
+                "P0": false,
+                "P1": false
+            }
+        ]
+    }
+}

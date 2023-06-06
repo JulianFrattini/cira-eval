@@ -1,0 +1,28 @@
+{
+    "testsuite": {
+        "conditions": [
+            {
+                "id": "P0",
+                "variable": "the version",
+                "condition": "is initial"
+            }
+        ],
+        "expected": [
+            {
+                "id": "P1",
+                "variable": "updates",
+                "condition": "will be performed through an app update"
+            }
+        ],
+        "cases": [
+            {
+                "P0": true,
+                "P1": true
+            },
+            {
+                "P0": false,
+                "P1": false
+            }
+        ]
+    }
+}

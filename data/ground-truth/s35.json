@@ -1,0 +1,28 @@
+{
+    "testsuite": {
+        "conditions": [
+            {
+                "id": "P0",
+                "variable": "access permissions",
+                "condition": "are deactivated"
+            }
+        ],
+        "expected": [
+            {
+                "id": "P1",
+                "variable": "I",
+                "condition": "receive information as to which app functions will no longer work"
+            }
+        ],
+        "cases": [
+            {
+                "P0": true,
+                "P1": true
+            },
+            {
+                "P0": false,
+                "P1": false
+            }
+        ]
+    }
+}

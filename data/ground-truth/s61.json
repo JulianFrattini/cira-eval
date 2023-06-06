@@ -1,0 +1,28 @@
+{
+    "testsuite": {
+        "conditions": [
+            {
+                "id": "P0",
+                "variable": "Data transmission",
+                "condition": "was successfully verified beforehand"
+            }
+        ],
+        "expected": [
+            {
+                "id": "P1",
+                "variable": "Data transmission",
+                "condition": "is possible"
+            }
+        ],
+        "cases": [
+            {
+                "P0": true,
+                "P1": true
+            },
+            {
+                "P0": false,
+                "P1": false
+            }
+        ]
+    }
+}

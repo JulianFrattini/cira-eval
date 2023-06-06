@@ -1,0 +1,28 @@
+{
+    "testsuite": {
+        "conditions": [
+            {
+                "id": "P0",
+                "variable": "the content",
+                "condition": "is available in the detected system language"
+            }
+        ],
+        "expected": [
+            {
+                "id": "P1",
+                "variable": "English",
+                "condition": "is selected by default"
+            }
+        ],
+        "cases": [
+            {
+                "P0": true,
+                "P1": false
+            },
+            {
+                "P0": false,
+                "P1": true
+            }
+        ]
+    }
+}

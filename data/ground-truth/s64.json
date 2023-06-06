@@ -1,0 +1,28 @@
+{
+    "testsuite": {
+        "conditions": [
+            {
+                "id": "P0",
+                "variable": "the provided API",
+                "condition": "is properly configured"
+            }
+        ],
+        "expected": [
+            {
+                "id": "P1",
+                "variable": "Thresholds",
+                "condition": "can be configured"
+            }
+        ],
+        "cases": [
+            {
+                "P0": true,
+                "P1": true
+            },
+            {
+                "P0": false,
+                "P1": false
+            }
+        ]
+    }
+}

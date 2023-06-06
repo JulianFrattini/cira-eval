@@ -1,0 +1,28 @@
+{
+    "testsuite": {
+        "conditions": [
+            {
+                "id": "P0",
+                "variable": "The app",
+                "condition": "receives dynamic configurations from the RKI"
+            }
+        ],
+        "expected": [
+            {
+                "id": "P1",
+                "variable": "how the risk assessment is calculated",
+                "condition": "can be affected"
+            }
+        ],
+        "cases": [
+            {
+                "P0": true,
+                "P1": true
+            },
+            {
+                "P0": false,
+                "P1": false
+            }
+        ]
+    }
+}

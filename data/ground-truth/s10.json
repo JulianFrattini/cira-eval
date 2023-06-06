@@ -1,0 +1,28 @@
+{
+    "testsuite": {
+        "conditions": [
+            {
+                "id": "P0",
+                "variable": "the system settings",
+                "condition": "are accessed"
+            }
+        ],
+        "expected": [
+            {
+                "id": "P1",
+                "variable": "The configuration of the general Bluetooth functions",
+                "condition": "is possible "
+            }
+        ],
+        "cases": [
+            {
+                "P0": true,
+                "P1": true
+            },
+            {
+                "P0": false,
+                "P1": false
+            }
+        ]
+    }
+}

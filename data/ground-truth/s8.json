@@ -1,0 +1,28 @@
+{
+    "testsuite": {
+        "conditions": [
+            {
+                "id": "P0",
+                "variable": "the first time the app",
+                "condition": "is used"
+            }
+        ],
+        "expected": [
+            {
+                "id": "P1",
+                "variable": "The prompt",
+                "condition": "appears "
+            }
+        ],
+        "cases": [
+            {
+                "P0": true,
+                "P1": true
+            },
+            {
+                "P0": false,
+                "P1": false
+            }
+        ]
+    }
+}

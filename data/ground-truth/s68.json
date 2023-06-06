@@ -1,0 +1,34 @@
+{
+    "testsuite": {
+        "conditions": [
+            {
+                "id": "P0",
+                "variable": "the options",
+                "condition": "are available in the respective operating system"
+            }
+        ],
+        "expected": [
+            {
+                "id": "P1",
+                "variable": "Accessibility regarding contrast",
+                "condition": "is provided"
+            }, {
+                "id": "P2",
+                "variable": "Accessibility regarding font size/type",
+                "condition": "is provided"
+            }
+        ],
+        "cases": [
+            {
+                "P0": true,
+                "P1": true,
+                "P2": true
+            },
+            {
+                "P0": false,
+                "P1": false,
+                "P2": false
+            }
+        ]
+    }
+}

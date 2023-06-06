@@ -1,0 +1,28 @@
+{
+    "testsuite": {
+        "conditions": [
+            {
+                "id": "P0",
+                "variable": "the app",
+                "condition": "is opened"
+            }
+        ],
+        "expected": [
+            {
+                "id": "P1",
+                "variable": "actual changed risk assessment",
+                "condition": "is displayed"
+            }
+        ],
+        "cases": [
+            {
+                "P0": true,
+                "P1": false
+            },
+            {
+                "P0": false,
+                "P1": true
+            }
+        ]
+    }
+}
