@@ -26,3 +26,9 @@ In order to reproduce the evaluation, follow the steps below:
     1. Follow the [installation instructions](https://github.com/JulianFrattini/cira/blob/main/README.md) to set up the CiRA tool on your system.
     2. Ensure that the RESTful API, which the CiRA tool provides, is currently running.
 4. Execute the [evaluation](./src/evaluation.ipynb) notebook.
+
+## License
+
+Copyright © 2023 Julian Frattini
+
+This work (source code) is licensed under  [MIT License](./LICENSE).
