@@ -1,7 +1,7 @@
 # CiRA Evaluation
 
 [![GitHub](https://img.shields.io/github/license/JulianFrattini/cira-eval)](./LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8033165.svg)](https://doi.org/10.5281/zenodo.8033165)
+[![DOI](https://zenodo.org/badge/650042294.svg)](https://zenodo.org/badge/latestdoi/650042294)
 
 ## Summary of the Artifact
 
