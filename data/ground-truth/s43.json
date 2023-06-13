@@ -1,0 +1,28 @@
+{
+    "testsuite": {
+        "conditions": [
+            {
+                "id": "P0",
+                "variable": "a test",
+                "condition": "is executed for the first time"
+            }
+        ],
+        "expected": [
+            {
+                "id": "P1",
+                "variable": "A warning",
+                "condition": "can be triggered"
+            }
+        ],
+        "cases": [
+            {
+                "P0": true,
+                "P1": true
+            },
+            {
+                "P0": false,
+                "P1": false
+            }
+        ]
+    }
+}
