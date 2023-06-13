@@ -12,7 +12,7 @@ This repository contains the code to evaluate the capability of the [CiRA tool](
 This repository contains the following files:
 
 * `data` : data necessary for the evaluation
-  * `caw-acceptance-criteria`: list of sentences constituting the acceptance criteria of the Corona Warn App, manually classified as either *causal* or *non-causal*
+  * `cwa-acceptance-criteria`: list of sentences constituting the acceptance criteria of the Corona Warn App, manually classified as either *causal* or *non-causal*
   * `ground-truth`: a json files containing a manually generated set of test cases following the CiRA test suite syntax for every *causal* sentence
 * `src\evaluation.ipynb`: Jupyter notebook for performing the calcularion
 * `requirements.txt`: required Python libraries for executing the evaluation
