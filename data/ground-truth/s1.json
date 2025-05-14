@@ -3,15 +3,15 @@
         "conditions": [
             {
                 "id": "P0",
-                "variable": "An introduction to how the app works",
-                "condition": "is displayed"
+                "variable": "the app",
+                "condition": "is launched the first time"
             }
         ],
         "expected": [
             {
                 "id": "P1",
-                "variable": "the app",
-                "condition": "is launched the first time"
+                "variable": "An introduction to how the app works",
+                "condition": "is displayed"
             }
         ],
         "cases": [
